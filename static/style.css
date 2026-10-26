@@ -1,0 +1,218 @@
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #dceeff url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+.todo-item input[type="text"].completed {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+.card, .container {
+    background: rgba(255, 255, 255, 0.96);
+    padding: 26px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(35, 55, 80, 0.12);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e5eaf0;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 16px 0;
+    border: 1px solid #bfcbd8;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background: #fbfcfe;
+}
+
+button {
+    background: #345995;
+    color: #ffffff;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: #263f70;
+}
+
+.error-list {
+    color: #b42332;
+    font-size: 13px;
+    margin-bottom: 16px;
+    padding-left: 22px;
+}
+
+.todo-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.todo-item input[type="text"] {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.btn-save {
+    background: #322186;
+}
+
+.btn-delete {
+    background: #ad9ea0b8;
+}
+
+.btn-logout {
+    background: #536477;
+    color: #ffffff;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.empty-state {
+    color: #718096;
+    text-align: center;
+    padding: 24px;
+}
+
+@media (max-width: 360px) {
+    body {
+        padding: 8px;
+    }
+
+    .todo-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}  
+
+/* Task progress summary */
+.task-summary {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin: 20px 0;
+}
+
+.summary-card {
+    background: rgba(234, 240, 246, 0.96);
+    border: 1px solid #d7e0ea;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.summary-card span {
+    color: #536477;
+    font-size: 14px;
+}
+
+.summary-card strong {
+    color: #345995;
+    font-size: 28px;
+}
+
+@media (max-width: 360px) {
+    .task-summary {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Edit Author page - blue background without pictures */
+.edit-author-container {
+    min-height: 100vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #eaf6ff, #8ec5fc, #dff3ff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.edit-author-container .library-section {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 50, 100, 0.18);
+}
+
+.edit-author-container h1 {
+    text-align: center;
+    color: #174a85;
+    margin-bottom: 30px;
+}
+
+.edit-author-container label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #173b68;
+    font-weight: bold;
+}
+
+.edit-author-container input[type="text"],
+.edit-author-container input[type="file"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #b8d4ed;
+    border-radius: 8px;
+    background: white;
+}
+
+.edit-author-container img {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.edit-author-container button {
+    margin-top: 20px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #24569b;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-author-container button:hover {
+    background: #173e75;
+}
+
+.edit-author-container a {
+    margin-left: 12px;
+    color: #174a85;
+}
+
+
+
