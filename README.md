@@ -146,41 +146,41 @@ http://127.0.0.1:5000/
 - Validate uploaded files before saving them.
 - Use secure password hashing for user authentication.
 
-## 9. Screenshots
+## 10. Screenshots
 
 This section presents screenshots of the Library Management Website and its main features.
 
-### 9.1 Login Page
+### 10.1 Login Page
 Displays the login interface used by registered users to access the website.
 
 
 
-### 9.2 Registration Page
+### 10.2 Registration Page
 Shows the registration form for creating a new user account.
 
 
 
-### 9.3 Library Page
+### 10.3 Library Page
 Displays the main library interface, including the book and author management sections.
 
 
 
-### 9.4 Add Book
+### 10.4 Add Book
 Shows the form used to add a new book, including its title, price, author, and cover image.
 
 
 
-### 9.5 Edit Book
+### 10.5 Edit Book
 Displays the interface for updating book information and uploading a new cover image.
 
 
 
-### 9.6 Edit Author
+### 10.6 Edit Author
 Shows the form for updating an author's name, country, and photo.
 
 
 
- 9.7 Add Author
+    10.7 Add Author
 
 Displays the form used to add a new author, including the author's name, country, and photo.
 
