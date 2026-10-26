@@ -160,7 +160,8 @@ Displays the login interface used by registered users to access the website.
 ### 10.2 Registration Page
 Shows the registration form for creating a new user account.
 
-         <img width="1370" height="712" alt="image" src="https://github.com/user-attachments/assets/4332ba24-ee84-4f2c-bc9d-428f162471ed" />
+        <img width="1370" height="712" alt="image" src="https://github.com/user-attachments/assets/13383a59-a196-4ef3-a63a-89e66d6ed166" />
+
 
 
 
