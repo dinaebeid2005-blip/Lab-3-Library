@@ -146,6 +146,6 @@ http://127.0.0.1:5000/
 - Validate uploaded files before saving them.
 - Use secure password hashing for user authentication.
 
-## 10. Conclusion
+## 11. Conclusion
 
 The Library Management Website demonstrates the integration of Python Flask and MySQL to build a web application. It provides practical experience with user authentication, database operations, file uploads, and frontend styling.
