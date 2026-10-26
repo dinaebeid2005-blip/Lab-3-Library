@@ -152,12 +152,14 @@ This section presents screenshots of the Library Management Website and its main
 
 ### 10.1 Login Page
 Displays the login interface used by registered users to access the website.
+
            <img width="1359" height="697" alt="image" src="https://github.com/user-attachments/assets/c25b997a-633d-4ee2-95bc-584af11fa2ff" />
 
 
 
 ### 10.2 Registration Page
 Shows the registration form for creating a new user account.
+
          <img width="1370" height="712" alt="image" src="https://github.com/user-attachments/assets/4332ba24-ee84-4f2c-bc9d-428f162471ed" />
 
 
