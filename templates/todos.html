@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>To-Do</h2>
+            <div class="user-info">
+                <span>Hi, {{ name }}</span>
+                <a href="{{ url_for('logout') }}" class="btn-logout">Log out</a>
+            </div>
+        </header>
+
+        {% with messages = get_flashed_messages(category_filter=["todo_error"]) %}
+            {% if messages %}
+                <ul class="error-list">
+                    {% for message in messages %}<li>{{ message }}</li>{% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        <form action="{{ url_for('add_todo') }}" method="POST" class="add-form">
+            <input type="text" name="title" placeholder="What needs to be done?" required maxlength="200">
+            <button type="submit">Add</button>
+        
+</form>
+
+<div class="task-summary">
+    <div class="summary-card">
+        <span>Open Tasks</span>
+        <strong>{{ open_count }}</strong>
+    </div>
+    <div class="summary-card">
+        <span>Completed Tasks</span>
+        <strong>{{ completed_count }}</strong>
+    </div>
+</div>
+
+<div class="todo-list">
+
+
+        
+            {% if not todos %}
+                <p class="empty-state">Your to-do list is empty. Add a task above!</p>
+            {% endif %}
+            {% for todo in todos %}
+            <form action="{{ url_for('update_todo', todo_id=todo.todo_id) }}" method="POST"
+      class="todo-item {% if todo.is_done %}completed{% endif %}">
+                <input type="checkbox" name="is_done" {% if todo.is_done %}checked{% endif %} onchange="this.form.submit()">
+                <input type="text" name="title" value="{{ todo.title }}" maxlength="200"
+       class="{% if todo.is_done %}completed{% endif %}" required>
+                <button type="submit" class="btn-save">Save</button>
+                <button type="submit" formaction="{{ url_for('delete_todo', todo_id=todo.todo_id) }}" formmethod="POST" class="btn-delete" onclick="return confirm('Are you sure?')">Delete</button>
+            </form>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
