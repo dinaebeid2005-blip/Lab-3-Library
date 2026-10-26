@@ -146,7 +146,7 @@ http://127.0.0.1:5000/
 - Validate uploaded files before saving them.
 - Use secure password hashing for user authentication.
 
-  ## 9. Screenshots
+## 9. Screenshots
 
 This section presents screenshots of the Library Management Website and its main features.
 
