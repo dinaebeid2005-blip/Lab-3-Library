@@ -180,9 +180,11 @@ Shows the form for updating an author's name, country, and photo.
 
 
 
-    10.7 Add Author
+### 10.7 Add Author
 
-Displays the form used to add a new author, including the author's name, country, and photo.
+Shows the form used to add a new author, including the author's name, country, and photo.
+
+
 
 
 
