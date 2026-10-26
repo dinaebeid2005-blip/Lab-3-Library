@@ -179,6 +179,11 @@ Shows the registration form for creating a new user account.
 ### 10.3 Library Page
 Displays the main library interface, including the book and author management sections.
 
+<img width="1091" height="585" alt="WhatsApp Image 2026-10-26 at 2 28 01 PM" src="https://github.com/user-attachments/assets/b7021f1e-381b-4b1b-9ecc-523d8d357237" />
+<img width="1092" height="478" alt="WhatsApp Image 2026-10-26 at 2 28 28 PM" src="https://github.com/user-attachments/assets/f19d623e-6b36-4cb8-9b44-c0d3d166d363" />
+
+
+
 
 
 
