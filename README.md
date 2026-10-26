@@ -153,38 +153,38 @@ This section presents screenshots of the Library Management Website and its main
 ### 9.1 Login Page
 Displays the login interface used by registered users to access the website.
 
-![Login Page](screenshots/login.png)
+
 
 ### 9.2 Registration Page
 Shows the registration form for creating a new user account.
 
-![Registration Page](screenshots/register.png)
+
 
 ### 9.3 Library Page
 Displays the main library interface, including the book and author management sections.
 
-![Library Page](screenshots/library.png)
+
 
 ### 9.4 Add Book
 Shows the form used to add a new book, including its title, price, author, and cover image.
 
-![Add Book](screenshots/add-book.png)
+
 
 ### 9.5 Edit Book
 Displays the interface for updating book information and uploading a new cover image.
 
-![Edit Book](screenshots/edit-book.png)
+
 
 ### 9.6 Edit Author
 Shows the form for updating an author's name, country, and photo.
 
-![Edit Author](screenshots/edit-author.png)
 
-9.7 Add Author
+
+ 9.7 Add Author
 
 Displays the form used to add a new author, including the author's name, country, and photo.
 
-![Database Tables](screenshots/database.png)
+
 
 ## 11. Conclusion
 
