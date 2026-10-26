@@ -153,12 +153,22 @@ This section presents screenshots of the Library Management Website and its main
 ### 10.1 Login Page
 Displays the login interface used by registered users to access the website.
 
+<img width="1359" height="697" alt="image" src="https://github.com/user-attachments/assets/4dacbaa8-8ebd-4199-bb0d-2de3c58112ff" />
+
+
+
+
+
            
 
 
 
 ### 10.2 Registration Page
 Shows the registration form for creating a new user account.
+
+<img width="1370" height="712" alt="image" src="https://github.com/user-attachments/assets/c33d28e1-87f8-4075-8d29-e57e07864f87" />
+
+
 
         
 
@@ -171,14 +181,23 @@ Displays the main library interface, including the book and author management se
 
 
 
+
 ### 10.4 Add Book
 Shows the form used to add a new book, including its title, price, author, and cover image.
+
+<img width="1346" height="710" alt="image" src="https://github.com/user-attachments/assets/11ff0cd7-a587-4f21-8518-51c792476afe" />
+
+
 
   
 
 
 ### 10.5 Edit Book
 Displays the interface for updating book information and uploading a new cover image.
+
+<img width="1347" height="703" alt="image" src="https://github.com/user-attachments/assets/76a5355e-50db-4a6a-bce2-c7016ca8e0d1" />
+
+
 
  
 
@@ -187,6 +206,10 @@ Displays the interface for updating book information and uploading a new cover i
 ### 10.6 Edit Author
 Shows the form for updating an author's name, country, and photo.
 
+<img width="1334" height="719" alt="image" src="https://github.com/user-attachments/assets/67c1e265-a720-488a-b494-5556e687263d" />
+
+
+
     
 
 
@@ -194,6 +217,9 @@ Shows the form for updating an author's name, country, and photo.
 ### 10.7 Add Author
 
 Shows the form used to add a new author, including the author's name, country, and photo.
+
+<img width="1353" height="710" alt="image" src="https://github.com/user-attachments/assets/d883df9b-70b2-47fb-be27-41dc1d9d6969" />
+
 
     
 
